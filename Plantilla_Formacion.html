@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anexo Formación Complementaria - Itziar Arrugaeta</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @media print {
+            @page {
+                size: A4 landscape;
+                margin: 9mm 11mm 9mm 11mm;
+            }
+            body {
+                background-color: #ffffff !important;
+                color: #0f172a !important;
+                font-size: 8.2pt !important;
+                line-height: 1.34 !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .print-shadow-none {
+                box-shadow: none !important;
+            }
+            .page-container {
+                padding: 0 !important;
+                margin: 0 !important;
+                max-width: 100% !important;
+                border: none !important;
+                box-shadow: none !important;
+            }
+            section {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans min-h-screen antialiased print:bg-white print:text-black">
+
+    <!-- Barra de herramientas superior (No se imprime) -->
+    <div class="no-print bg-slate-900 text-white py-3 px-6 sticky top-0 z-50 shadow-md flex justify-between items-center">
+        <div>
+            <h1 class="font-bold text-sm sm:text-base">Anexo: Formación Complementaria — Itziar Arrugaeta (Apaisado - 3 Columnas)</h1>
+            <p class="text-xs text-slate-400">Diseño en 3 columnas con tipografía ampliada para 1 página A4 horizontal</p>
+        </div>
+        <button onclick="window.print()" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-1.5 rounded-lg font-medium text-xs sm:text-sm transition-colors flex items-center gap-2 shadow-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+            </svg>
+            Imprimir o Guardar en 1 Hoja PDF
+        </button>
+    </div>
+
+    <!-- Contenedor Principal (Apaisado) -->
+    <main class="page-container max-w-[1400px] mx-auto my-4 p-6 sm:p-7 bg-white rounded-xl shadow-lg border border-slate-100 print:shadow-none print:border-none print:p-0 print:my-0">
+        
+        <!-- Cabecera -->
+        <header class="border-b-2 border-emerald-600 pb-2 mb-3">
+            <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900 uppercase">Itziar Arrugaeta Carretero</h1>
+            <p class="text-emerald-700 font-semibold tracking-wide text-xs sm:text-sm mt-0.5">Anexo: Formación Complementaria y Certificaciones de Especialización</p>
+        </header>
+
+        <!-- Malla de 3 columnas balanceadas -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5 print:grid-cols-3">
+            
+            <!-- COLUMNA 1: TIC, DATOS, LENGUAJES Y ECONÓMICO/JURÍDICO -->
+            <div class="space-y-3">
+                
+                <!-- TIC, Datos e IA -->
+                <section class="border border-slate-200 rounded p-2.5 bg-slate-50/50">
+                    <h2 class="text-[11.5px] print:text-[8.4pt] font-bold text-slate-900 border-b border-slate-200 pb-0.5 mb-1.5 uppercase flex items-center gap-1 text-emerald-900">
+                        <span class="w-1.5 h-3 bg-emerald-600 inline-block rounded-xs"></span>
+                        TIC, Datos e IA
+                    </h2>
+                    <ul class="list-disc list-outside ml-3.5 text-[10px] print:text-[7.6pt] text-slate-700 space-y-0.5 leading-snug">
+                        <li>Artificial Intelligence Fundamentals (IBM).</li>
+                        <li>Especialista en Inteligencia Artificial.</li>
+                        <li>Usos Profesionales de la IA Generativa.</li>
+                        <li>IA para Profesionales del Tercer Sector.</li>
+                        <li>Google Data Analytics Certificate.</li>
+                        <li>Data Fundamentals (IBM).</li>
+                        <li>Big Data: Power Query, Power Pivot y Power BI.</li>
+                        <li>Cybersecurity Fundamentals (IBM).</li>
+                        <li>Gestión de proyectos con OpenProject.</li>
+                    </ul>
+                </section>
+
+                <!-- Lenguajes Especializados -->
+                <section class="border border-slate-200 rounded p-2.5 bg-slate-50/50">
+                    <h2 class="text-[11.5px] print:text-[8.4pt] font-bold text-slate-900 border-b border-slate-200 pb-0.5 mb-1.5 uppercase flex items-center gap-1 text-emerald-900">
+                        <span class="w-1.5 h-3 bg-emerald-600 inline-block rounded-xs"></span>
+                        Lenguajes Especializados
+                    </h2>
+                    <ul class="list-disc list-outside ml-3.5 text-[10px] print:text-[7.6pt] text-slate-700 space-y-0.5 leading-snug">
+                        <li>Lenguaje Jurídico Catalán.</li>
+                        <li>Lenguaje Administrativo Catalán.</li>
+                        <li>Business English Certificate.</li>
+                    </ul>
+                </section>
+
+                <!-- Económico, Jurídico y Administrativo -->
+                <section class="border border-slate-200 rounded p-2.5 bg-slate-50/50">
+                    <h2 class="text-[11.5px] print:text-[8.4pt] font-bold text-slate-900 border-b border-slate-200 pb-0.5 mb-1.5 uppercase flex items-center gap-1 text-emerald-900">
+                        <span class="w-1.5 h-3 bg-emerald-600 inline-block rounded-xs"></span>
+                        Económico, Jurídico y Administrativo
+                    </h2>
+                    <ul class="list-disc list-outside ml-3.5 text-[10px] print:text-[7.6pt] text-slate-700 space-y-0.5 leading-snug">
+                        <li>Jornada Ley General de Subvenciones y desarrollo reglamentario.</li>
+                        <li>Interpretación de documentos financieros y fiscales.</li>
+                        <li>Líneas básicas de la protección de datos personales.</li>
+                        <li>Curso básico de derecho en extranjería.</li>
+                        <li>Autorizaciones iniciales de trabajo para personas extranjeras.</li>
+                    </ul>
+                </section>
+
+            </div>
+
+            <!-- COLUMNA 2: ACCIÓN HUMANITARIA Y COOPERACIÓN AL DESARROLLO -->
+            <div class="space-y-3">
+                
+                <!-- Acción Humanitaria -->
+                <section class="border border-slate-200 rounded p-2.5 bg-slate-50/50">
+                    <h2 class="text-[11.5px] print:text-[8.4pt] font-bold text-slate-900 border-b border-slate-200 pb-0.5 mb-1.5 uppercase flex items-center gap-1 text-emerald-900">
+                        <span class="w-1.5 h-3 bg-emerald-600 inline-block rounded-xs"></span>
+                        Acción Humanitaria
+                    </h2>
+                    <ul class="list-disc list-outside ml-3.5 text-[10px] print:text-[7.6pt] text-slate-700 space-y-0.5 leading-snug">
+                        <li>Diplomacia Humanitaria.</li>
+                        <li>Nexo Humanitario - Desarrollo - Paz.</li>
+                        <li>Transferencias monetarias y protección social en acción humanitaria.</li>
+                        <li>Atención psicosocial en la acción humanitaria.</li>
+                        <li>Acción Humanitaria: Reducción del riesgo de desastres.</li>
+                        <li>Acción Humanitaria y Resiliencia.</li>
+                        <li>Acción Humanitaria: Género y edad.</li>
+                        <li>Logística Humanitaria.</li>
+                        <li>Acción Humanitaria y Medio Ambiente.</li>
+                        <li>Acción Humanitaria y Patrimonio en Emergencias.</li>
+                        <li>Acción Humanitaria y Localización.</li>
+                    </ul>
+                </section>
+
+                <!-- Cooperación al Desarrollo -->
+                <section class="border border-slate-200 rounded p-2.5 bg-slate-50/50">
+                    <h2 class="text-[11.5px] print:text-[8.4pt] font-bold text-slate-900 border-b border-slate-200 pb-0.5 mb-1.5 uppercase flex items-center gap-1 text-emerald-900">
+                        <span class="w-1.5 h-3 bg-emerald-600 inline-block rounded-xs"></span>
+                        Cooperación al Desarrollo
+                    </h2>
+                    <ul class="list-disc list-outside ml-3.5 text-[10px] print:text-[7.6pt] text-slate-700 space-y-0.5 leading-snug">
+                        <li>Curso básico de cooperación al desarrollo.</li>
+                        <li>Seminario: Identificación y formulación de proyectos.</li>
+                        <li>Seminario: Ejecución y evaluación de proyectos.</li>
+                        <li>Seminario: Justificación de proyectos de cooperación.</li>
+                        <li>Seminario: Interculturalidad y codesarrollo.</li>
+                        <li>Taller introductorio de codesarrollo.</li>
+                    </ul>
+                </section>
+
+            </div>
+
+            <!-- COLUMNA 3: ACOGIDA, IGUALDAD, MENORES Y EDUCACIÓN -->
+            <div class="space-y-3">
+                
+                <!-- Acogida, Inclusión e Igualdad -->
+                <section class="border border-slate-200 rounded p-2.5 bg-slate-50/50">
+                    <h2 class="text-[11.5px] print:text-[8.4pt] font-bold text-slate-900 border-b border-slate-200 pb-0.5 mb-1.5 uppercase flex items-center gap-1 text-emerald-900">
+                        <span class="w-1.5 h-3 bg-emerald-600 inline-block rounded-xs"></span>
+                        Acogida, Inclusión e Igualdad
+                    </h2>
+                    <ul class="list-disc list-outside ml-3.5 text-[10px] print:text-[7.6pt] text-slate-700 space-y-0.5 leading-snug">
+                        <li>Formación básica de acogida.</li>
+                        <li>Aspectos psicológicos y procesos de adaptación de personas migrantes.</li>
+                        <li>Derechos Humanos en la Migración Internacional.</li>
+                        <li>Protección de Datos de Personas Migrantes.</li>
+                        <li>Diversidad religiosa en Cataluña.</li>
+                        <li>Agente de igualdad.</li>
+                        <li>Violencia contra la mujer: aspectos penales y criminológicos.</li>
+                        <li>Trabajo con madres supervivientes de la violencia de género.</li>
+                        <li>Check-Out a las ciberviolencias contra las mujeres.</li>
+                        <li>Taller de Violencia vicaria de género: perspectiva jurídica y psicológica.</li>
+                        <li>Mujeres Jóvenes y Salud Mental.</li>
+                        <li>Intervención en casos de discriminación LGBTI+.</li>
+                        <li>Estrategias de intervención LGTBI+.</li>
+                        <li>Agente de inclusión social e intervención comunitaria.</li>
+                        <li>Resolución de conflictos, trabajo en red y gestión participativa.</li>
+                    </ul>
+                </section>
+
+                <!-- Educación, Menores y TIC Docente -->
+                <section class="border border-slate-200 rounded p-2.5 bg-slate-50/50">
+                    <h2 class="text-[11.5px] print:text-[8.4pt] font-bold text-slate-900 border-b border-slate-200 pb-0.5 mb-1.5 uppercase flex items-center gap-1 text-emerald-900">
+                        <span class="w-1.5 h-3 bg-emerald-600 inline-block rounded-xs"></span>
+                        Educación, Menores y TIC Docentes
+                    </h2>
+                    <ul class="list-disc list-outside ml-3.5 text-[10px] print:text-[7.6pt] text-slate-700 space-y-0.5 leading-snug">
+                        <li>Competencias educativas en intervención con menores.</li>
+                        <li>Monitor de actividades extraescolares y refuerzo educativo.</li>
+                        <li>Monitor de ocio y tiempo libre.</li>
+                        <li>Monitor de talleres infantiles.</li>
+                        <li>Entornos virtuales de aprendizaje.</li>
+                        <li>Herramientas 2.0 para el docente.</li>
+                        <li>Innovación educativa aplicada.</li>
+                        <li>Educación en un mundo conectado.</li>
+                        <li>Aplicación de las redes sociales a la enseñanza.</li>
+                        <li>Educación y museos.</li>
+                    </ul>
+                </section>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
